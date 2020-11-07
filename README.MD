@@ -18,12 +18,25 @@
      3. Working with local files.
 
    - When to use APIViews?
+
      1. Need full control over logic such as when you running a very complicated algorithm or update multiples resources in one API call.
      2. Processing files and rendering a synchronous response.
      3. You are calling other external APIs or services in same request.
      4. Accessing local files or data.
 
 2. ViewSet
+
+   - Uses model operations for functions.
+   - Takes care of a lot of typical logic for you.
+   - Perfect for standard database operations.
+   - Fastest way to make a database interface.
+
+   - When to use ViewSets?
+
+     1. A simple CRUD interface to your database.
+     2. A quick and simple API.
+     3. Little to no customization on the logic.
+     4. Working with standard data structures.
 
 ### Serializer
 
