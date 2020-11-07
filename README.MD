@@ -25,6 +25,10 @@
 
 2. ViewSet
 
+### Serializer
+
+Serializer is a feature from Django REST Framework that allows you to easily convert data inputs into Python objects and viceversa.
+
 ### Notes & Tricks
 
 - Activate Django Admin: To activate Django Admin you edit your admin.py:
