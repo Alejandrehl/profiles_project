@@ -90,3 +90,11 @@ Serializer is a feature from Django REST Framework that allows you to easily con
    - Exec `ssh ubuntu@STRING_COPIED_DNS`: This command connect with your instance
    - Get raw url of your setup.sh file, example: `https://raw.githubusercontent.com/Alejandrehl/profiles_project/master/deploy/setup.sh`
    - Exec `curl -sl https://raw.githubusercontent.com/Alejandrehl/profiles_project/master/deploy/setup.sh | sudo bash -` in instance terminal windows
+8. ### Update allowed hosts and deploy changes
+
+```python3
+ALLOWED_HOSTS = [
+    "http://ec2-3-23-129-101.us-east-2.compute.amazonaws.com/",
+    "127.0.0.1"
+]
+```
