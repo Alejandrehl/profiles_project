@@ -58,3 +58,13 @@ Serializer is a feature from Django REST Framework that allows you to easily con
 ### Tools
 
 - ModHeader: Chrome extension to modify HTTP request and response headers.
+
+### AWS Deployment Steps
+
+1. Sign in [AWS](https://aws.amazon.com/)
+2. Go to console
+3. Go to EC2
+4. Import new Key Pair
+   - Add Name, example: `Alejandro-MacbookPro-16`
+   - Use `cat ~/.ssh/id_rsa.pub` in terminal and copy/paste the key.
+5. Create EC2 Server instance
