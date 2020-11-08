@@ -75,3 +75,10 @@ Serializer is a feature from Django REST Framework that allows you to easily con
    - Add new HTTP Rule
    - Click `Review and Launch`
    - Click `Launch`
+   - Select a Key Pair created previously
+   - Launch Instance
+6. ### Configure Deploy
+   - Create & config `deploy` folder.
+   - setup.sh: File to config Server, Folders, Dependencies and migrations.
+   - update.sh: Update the code on server when we make changes.
+   -
