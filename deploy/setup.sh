@@ -43,8 +43,8 @@ echo "ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default 
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default 
 echo "rm /etc/nginx/sites-enabled/default"
 rm /etc/nginx/sites-enabled/default
-echo "ln -s /etc/nginx/sites-available/profiles_api.conf /etc/nginx/sites-enabled/profiles_api.conf"
-ln -s /etc/nginx/sites-available/profiles_api.conf /etc/nginx/sites-enabled/profiles_api.conf
+echo "ln -sf /etc/nginx/sites-available/profiles_api.conf /etc/nginx/sites-enabled/profiles_api.conf"
+ln -sf /etc/nginx/sites-available/profiles_api.conf /etc/nginx/sites-enabled/profiles_api.conf
 echo "systemctl restart nginx.service"
 systemctl restart nginx.service
 
