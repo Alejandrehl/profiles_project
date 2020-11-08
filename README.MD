@@ -43,6 +43,12 @@
 
 Serializer is a feature from Django REST Framework that allows you to easily convert data inputs into Python objects and viceversa.
 
+### Permissions
+
+- Add `from rest_framework.permissions import NAME`
+- IsAuthenticated: Allow access to resources just authenticated users.
+- IsAuthenticatedOrReadOnly: Allow access just to read resources. (Get All, Get by Id).
+
 ### Notes & Tricks
 
 - Activate Django Admin: To activate Django Admin you edit your admin.py:
