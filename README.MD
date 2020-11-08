@@ -48,3 +48,7 @@ Serializer is a feature from Django REST Framework that allows you to easily con
 - Activate Django Admin: To activate Django Admin you edit your admin.py:
   1. Import dependencie: `from profiles_api import models`
   2. Register model: `admin.site.register(models.UserProfile)`
+
+### Tools
+
+- ModHeader: Chrome extension to modify HTTP request and response headers.
