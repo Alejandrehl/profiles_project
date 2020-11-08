@@ -96,7 +96,8 @@ Serializer is a feature from Django REST Framework that allows you to easily con
 
 ```python3
 ALLOWED_HOSTS = [
-    "http://ec2-3-23-129-101.us-east-2.compute.amazonaws.com",
+    "ec2-3-23-129-101.us-east-2.compute.amazonaws.com",
+    "3.23.129.101",
     "127.0.0.1",
     "localhost"
 ]
