@@ -64,7 +64,14 @@ Serializer is a feature from Django REST Framework that allows you to easily con
 1. Sign in [AWS](https://aws.amazon.com/)
 2. Go to console
 3. Go to EC2
-4. Import new Key Pair
+4. ### Import new Key Pair
    - Add Name, example: `Alejandro-MacbookPro-16`
    - Use `cat ~/.ssh/id_rsa.pub` in terminal and copy/paste the key.
-5. Create EC2 Server instance
+5. ### Create EC2 Server instance
+   - Click `Launch Instances`
+   - Select Ubuntu LTS
+   - Select t2.micro (Free tier)
+   - Select `6. Configure Security Group`
+   - Add new HTTP Rule
+   - Click `Review and Launch`
+   - Click `Launch`
