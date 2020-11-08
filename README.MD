@@ -92,6 +92,8 @@ Serializer is a feature from Django REST Framework that allows you to easily con
    - Exec `curl -sl https://raw.githubusercontent.com/Alejandrehl/profiles_project/master/deploy/setup.sh | sudo bash -` in instance terminal windows
 8. ### Update allowed hosts and deploy changes
 
+- Update allowed hosts
+
 ```python3
 ALLOWED_HOSTS = [
     "http://ec2-3-23-129-101.us-east-2.compute.amazonaws.com/",
@@ -99,3 +101,7 @@ ALLOWED_HOSTS = [
     "localhost"
 ]
 ```
+
+- In your instance terminal window:
+  - `cd /usr/local/apps/profiles-rest-api`
+  - `sudo sh ./deploy/update.sh`
